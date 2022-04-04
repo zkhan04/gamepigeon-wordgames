@@ -11,7 +11,7 @@ public class WordHuntSolver {
 
     public void fillDictionary(){
         try{
-            File dict = new File("C:/Users/Zayd/IdeaProjects/AP Computer Science/Word Hunt Solver/newdict.txt/");
+            File dict = new File("newdict.txt");
             Scanner filldict = new Scanner(dict);
             while(filldict.hasNextLine()){
                 dictionary.add(filldict.nextLine());
